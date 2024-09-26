@@ -1,0 +1,43 @@
+
+.first-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.details{
+  width: 400px;
+}
+
+.random-information {
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 90px;
+}
+.informations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+}
+.sample {
+  padding: 30px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(0, 186, 211);
+  border-radius: 20px;
+}
+.information-para {
+  text-align: center;
+  width: 150px;
+  margin: 5px 5px;
+  font-size: 17px;
+}
