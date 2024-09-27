@@ -1,19 +1,46 @@
-
-.first-section{
+body {
+  margin: 0;
+}
+header {
+  background-color: #1f2937;
+}
+.first-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #1f2937;
+  height: 400px;
 }
-.details{
-  width: 400px;
+.details {
+  width: 500px;
+  color: #f9faf8;
+  margin: 30px;
+}
+.details-header {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 10px;
+}
+.details-para {
+  margin: 10px;
+}
+.image {
+  width: 500px;
+  height: 200px;
+  background-color: #ffffff;
 }
 
 .random-information {
+  margin-top: 40px;
   text-align: center;
-  font-size: xx-large;
   margin-bottom: 90px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
+
 .informations {
   display: flex;
   flex-wrap: wrap;
@@ -40,4 +67,89 @@
   width: 150px;
   margin: 5px 5px;
   font-size: 17px;
+}
+.second-section {
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.last-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: white;
+}
+.box {
+  background-color: #3882f6;
+  margin: 10px;
+  height: 170px;
+  width: 1200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box-details {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start; */
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+}
+.section-three {
+  background-color: #e5e7eb;
+  height: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.quote-header {
+  width: 1000px;
+  font-size: 35px;
+  color: #1f2937;
+  font-weight: 200;
+  font-style: italic;
+}
+.quote-header2 {
+  margin-left: 800px;
+  font-size: 36px;
+}
+
+header {
+  color: #e5e7eb;
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+.header-heading {
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 300px;
+}
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-left: 800px;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
