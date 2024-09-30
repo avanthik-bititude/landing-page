@@ -6,6 +6,7 @@ header {
 }
 .first-section {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -13,7 +14,6 @@ header {
   height: 400px;
 }
 .details {
-  width: 500px;
   color: #f9faf8;
   margin: 30px;
 }
